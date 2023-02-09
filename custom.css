@@ -38,8 +38,10 @@
 }
 
 .club-container .club-card-box .club-card-main .club-card-front img {
-    width: 100%;
-    height: 80%;
+    /* width: 100%; */
+    width: 220px;
+    /* height: 80%; */
+    height: 350px;
 }
 
 .club-container .club-card-box .club-card-main .club-card-back {
@@ -58,7 +60,9 @@
     font-size: 40px;
     margin: auto;
     padding: 2px;
+    line-height: 1.2;
 }
+
 
 
 .font-DancingScript {
@@ -171,21 +175,69 @@
 }
 
 .background_image_img_02 {
-    background-image: linear-gradient(to right top, #6b79d1, #7771cd, #8468c7, #905ec0, #9b53b7, #aa47a8, #b63a98, #bf2c86, #c8206b, #c9214f, #c42c34, #b93b18);
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
 }
 
 .background_image_img_03 {
-    background-image: radial-gradient(circle, #868db9, #8389bc, #8084bf, #7e80c2, #7c7bc4, #8e78bf, #9e74b9, #ab71b1, #be749f, #c67b90, #c68586, #c29083);
+    background-color: #48a772;
+    background-image: linear-gradient(50deg, #48a772 0%, #fffc8d 50%, #ff4242 100%);
 }
 
 .background_image_img_04 {
-    background-image: radial-gradient(circle, #86b9b2, #7dbdad, #78c1a4, #78c499, #7ec68a, #92c078, #a5ba6a, #b6b260, #c8a262, #d0946d, #cd897b, #c28389);
+    background-image: linear-gradient(to right top, #e1c7c7, #e6cbd8, #ded2ec, #ccddfc, #b7e8ff, #a6e8ff, #93e7ff, #7ee7ff, #6ddaff, #72caff, #8cb7ff, #ada1ff);
 }
 
 .background_image_img_05 {
-    background-image: radial-gradient(circle, #b786b9, #c684aa, #cf849a, #d2878c, #d08c7f, #d08c84, #d08c8a, #cf8d8f, #c78ea5, #b493b8, #9c99c2, #839fc2);
+    background-image: linear-gradient(to right top, #f8ff57, #ffd75d, #ffb284, #ff9cb0, #ff97d3, #f799e2, #eb9cf1, #dba0ff, #d0a0ff, #c4a1ff, #b9a1ff, #ada1ff);
 }
 
 .background_image_img_06 {
-    background-image: radial-gradient(circle, #f4f4f4, #dfdedf, #cbc8c9, #b7b2b3, #a49d9c, #a09491, #9c8b86, #97837b, #a2847b, #ad847c, #b7837f, #c28383);
+    background-image: linear-gradient(to left bottom, #ff575f, #ff7797, #ff9ac5, #f9bce6, #f3dbf9, #ede7ff, #eef1ff, #f5f9ff, #e8f6ff, #d8f4ff, #c4f2ff, #b0f1ff);
+}
+
+.card {
+    margin-top: 10px;
+}
+
+.custom_bg {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    animation: custom_bg 10s infinite;
+}
+
+@keyframes custom_bg {
+    0% {
+        background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    }
+
+    15% {
+        background-image: linear-gradient(to right top, #e1c7c7, #e6cbd8, #ded2ec, #ccddfc, #b7e8ff, #a6e8ff, #93e7ff, #7ee7ff, #6ddaff, #72caff, #8cb7ff, #ada1ff);
+
+    }
+
+    30% {
+        background-image: linear-gradient(to left bottom, #ff575f, #ff7797, #ff9ac5, #f9bce6, #f3dbf9, #ede7ff, #eef1ff, #f5f9ff, #e8f6ff, #d8f4ff, #c4f2ff, #b0f1ff);
+    }
+
+    45% {
+        background-image: linear-gradient(to right top, #f8ff57, #ffd75d, #ffb284, #ff9cb0, #ff97d3, #f799e2, #eb9cf1, #dba0ff, #d0a0ff, #c4a1ff, #b9a1ff, #ada1ff);
+    }
+
+    60% {
+        background-image: linear-gradient(to right top, #e1c7c7, #e6cbd8, #ded2ec, #ccddfc, #b7e8ff, #a6e8ff, #93e7ff, #7ee7ff, #6ddaff, #72caff, #8cb7ff, #ada1ff);
+    }
+
+    75% {
+        background-color: #48a772;
+        background-image: linear-gradient(50deg, #48a772 0%, #fffc8d 50%, #ff4242 100%);
+    }
+
+    90% {
+        background-color: #85FFBD;
+        background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    }
+
+    100% {
+        background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    }
 }
